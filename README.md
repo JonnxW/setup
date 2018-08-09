@@ -1,1 +1,11 @@
 # setup
+## Betriebssystem
+## Basis
+### Git
+### Node
+### npm
+### nvm
+## Webserver
+### Apache2
+### PHP
+### MySQL
