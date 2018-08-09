@@ -5,6 +5,7 @@
 ### Node
 ### npm
 ### nvm
+### gulp
 ## Webserver
 ### Apache2
 ### PHP
