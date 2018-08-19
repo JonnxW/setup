@@ -1,12 +1,4 @@
-SSH-Keys erzeugen --> github, c9
-apache, mysql, php
-
-
-# setup
-## Betriebssystem
- - install Ubuntu
- - run `sudo apt-get update` to update package list
-## Basis
+## Basics
 ### Basic Tools
  - curl: `sudo apt-get install curl`
 ### SSH Keys
@@ -25,6 +17,10 @@ apache, mysql, php
 ### gulp
  - install gulp-cli globally via npm: `npm install -g gulp-cli`
 ## Webserver
-### Apache2
-### PHP
-### MySQL
+ - to install Apache2 with PHP and MySQL run:
+```
+sudo apt-get install apache2 mysql-server php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+```
+ - disable apache to start on boot: `sudo update-rc.d apache2 disable`
+ - disable mysql to start on boot: `sudo update-rc.d mysql disable`
+
